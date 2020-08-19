@@ -1,0 +1,5 @@
+<h2>Task w/ async pipe:</h2>
+
+<!-- <ng-container *ngIf="tasks$ | async as tasks"> </ng-container> -->
+
+<app-todo-list [tasks]="tasks$ | async"></app-todo-list>
